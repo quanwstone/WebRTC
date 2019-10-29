@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="isac">
+      <UniqueIdentifier>{97cd447f-bcb2-45ff-85ad-b81e48947ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="isac\main">
+      <UniqueIdentifier>{68e3c1f7-d124-4087-bd45-98d84721a186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="isac\main\source">
+      <UniqueIdentifier>{8b2282f9-4043-4ea9-8912-170e294dfe4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="isac\main\include">
+      <UniqueIdentifier>{07c5e85f-743e-456a-bfd7-97d8b8e3ddd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\bandwidth_info.h">
+      <Filter>isac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\locked_bandwidth_info.h">
+      <Filter>isac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\audio_decoder_isac_t.h">
+      <Filter>isac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\audio_decoder_isac_t_impl.h">
+      <Filter>isac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\audio_encoder_isac_t.h">
+      <Filter>isac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\audio_encoder_isac_t_impl.h">
+      <Filter>isac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\include\audio_encoder_isac.h">
+      <Filter>isac\main\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\include\isac.h">
+      <Filter>isac\main\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\include\audio_decoder_isac.h">
+      <Filter>isac\main\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_shape_swb16_tables.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_tables.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\os_specific_inline.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\pitch_estimator.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\pitch_gain_tables.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\pitch_lag_tables.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\settings.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\spectrum_ar_model_tables.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\structs.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\arith_routines.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\bandwidth_estimator.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\codec.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\crc.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\encode_lpc_swb.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\entropy_coding.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\fft.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\filterbank_tables.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\isac_float_type.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_analysis.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_gain_swb_tables.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_shape_swb12_tables.h">
+      <Filter>isac\main\source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\locked_bandwidth_info.cc">
+      <Filter>isac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_tables.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\pitch_estimator.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\pitch_filter.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\pitch_gain_tables.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\pitch_lag_tables.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\spectrum_ar_model_tables.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\transform.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\arith_routines.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\arith_routines_hist.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\arith_routines_logist.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\audio_decoder_isac.cc">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\audio_encoder_isac.cc">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\bandwidth_estimator.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\crc.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\decode.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\decode_bwe.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\encode.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\encode_lpc_swb.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\entropy_coding.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\fft.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\filter_functions.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\filterbank_tables.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\filterbanks.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\intialize.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\isac.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\lattice.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_analysis.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_gain_swb_tables.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_shape_swb12_tables.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source\lpc_shape_swb16_tables.c">
+      <Filter>isac\main\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

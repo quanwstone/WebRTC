@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\webrtc\base\checks.h" />
+    <ClInclude Include="..\..\..\webrtc\base\criticalsection.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\aligned_array.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\aligned_malloc.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\asm_defines.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\atomic32.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\clock.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\cpu_features_wrapper.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\cpu_info.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\event_wrapper.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\field_trial.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\field_trial_default.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\file_wrapper.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\fix_interlocked_exchange_pointer_win.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\logcat_trace_context.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\metrics.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\metrics_default.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\ntp_time.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\rtp_to_ntp_estimator.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\rw_lock_wrapper.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\sleep.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\static_instance.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\timestamp_extrapolator.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\trace.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\source\event_timer_win.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\source\rw_lock_win.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\source\trace_impl.h" />
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\source\trace_win.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\webrtc\base\checks.cc" />
+    <ClCompile Include="..\..\..\webrtc\base\criticalsection.cc" />
+    <ClCompile Include="..\..\..\webrtc\base\event.cc" />
+    <ClCompile Include="..\..\..\webrtc\base\event_tracer.cc" />
+    <ClCompile Include="..\..\..\webrtc\base\logging.cc" />
+    <ClCompile Include="..\..\..\webrtc\base\platform_file.cc" />
+    <ClCompile Include="..\..\..\webrtc\base\platform_thread.cc" />
+    <ClCompile Include="..\..\..\webrtc\base\race_checker.cc" />
+    <ClCompile Include="..\..\..\webrtc\base\stringencode.cc" />
+    <ClCompile Include="..\..\..\webrtc\base\string_to_number.cc" />
+    <ClCompile Include="..\..\..\webrtc\base\thread_checker_impl.cc" />
+    <ClCompile Include="..\..\..\webrtc\base\timeutils.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\aligned_malloc.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\atomic32_win.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\clock.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\cpu_features.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\cpu_info.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\event.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\event_timer_win.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\field_trial_default.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\file_impl.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\metrics_default.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\rtp_to_ntp_estimator.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\rw_lock.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\rw_lock_win.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\sleep.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\timestamp_extrapolator.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\trace_impl.cc" />
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\trace_win.cc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9DBBD37D-A840-496C-9400-25A035DA1756}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>system_wrappers</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;WEBRTC_WIN;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\quanwei\Media\trunk\Effect-src\AudioEchoCancel-xj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>winmm.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;WEBRTC_WIN;_CRT_SECURE_NO_WARNINGS;NOMINMAX;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\;..\..\..\webrtc\system_wrappers\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>winmm.lib</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

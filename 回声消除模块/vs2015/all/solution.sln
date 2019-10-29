@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "audio_processing", "..\webrtc-build\audio_processing\audio_processing.vcxproj", "{4AC6512D-8E4D-4665-9C6C-22CF03D7D108}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common_audio", "..\webrtc-build\common_audio\common_audio.vcxproj", "{723D8B66-143B-4008-BE6C-4E8F208833F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "system_wrappers", "..\webrtc-build\system_wrappers\system_wrappers.vcxproj", "{9DBBD37D-A840-496C-9400-25A035DA1756}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EchoTest", "..\Echo-test\EchoTest.vcxproj", "{D3D03148-DC7E-4491-96DC-6900D0CA523E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AC6512D-8E4D-4665-9C6C-22CF03D7D108}.Debug|x64.ActiveCfg = Debug|x64
+		{4AC6512D-8E4D-4665-9C6C-22CF03D7D108}.Debug|x64.Build.0 = Debug|x64
+		{4AC6512D-8E4D-4665-9C6C-22CF03D7D108}.Debug|x86.ActiveCfg = Debug|Win32
+		{4AC6512D-8E4D-4665-9C6C-22CF03D7D108}.Debug|x86.Build.0 = Debug|Win32
+		{4AC6512D-8E4D-4665-9C6C-22CF03D7D108}.Release|x64.ActiveCfg = Release|x64
+		{4AC6512D-8E4D-4665-9C6C-22CF03D7D108}.Release|x64.Build.0 = Release|x64
+		{4AC6512D-8E4D-4665-9C6C-22CF03D7D108}.Release|x86.ActiveCfg = Release|Win32
+		{4AC6512D-8E4D-4665-9C6C-22CF03D7D108}.Release|x86.Build.0 = Release|Win32
+		{723D8B66-143B-4008-BE6C-4E8F208833F6}.Debug|x64.ActiveCfg = Debug|x64
+		{723D8B66-143B-4008-BE6C-4E8F208833F6}.Debug|x64.Build.0 = Debug|x64
+		{723D8B66-143B-4008-BE6C-4E8F208833F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{723D8B66-143B-4008-BE6C-4E8F208833F6}.Debug|x86.Build.0 = Debug|Win32
+		{723D8B66-143B-4008-BE6C-4E8F208833F6}.Release|x64.ActiveCfg = Release|x64
+		{723D8B66-143B-4008-BE6C-4E8F208833F6}.Release|x64.Build.0 = Release|x64
+		{723D8B66-143B-4008-BE6C-4E8F208833F6}.Release|x86.ActiveCfg = Release|Win32
+		{723D8B66-143B-4008-BE6C-4E8F208833F6}.Release|x86.Build.0 = Release|Win32
+		{9DBBD37D-A840-496C-9400-25A035DA1756}.Debug|x64.ActiveCfg = Debug|x64
+		{9DBBD37D-A840-496C-9400-25A035DA1756}.Debug|x64.Build.0 = Debug|x64
+		{9DBBD37D-A840-496C-9400-25A035DA1756}.Debug|x86.ActiveCfg = Debug|Win32
+		{9DBBD37D-A840-496C-9400-25A035DA1756}.Debug|x86.Build.0 = Debug|Win32
+		{9DBBD37D-A840-496C-9400-25A035DA1756}.Release|x64.ActiveCfg = Release|x64
+		{9DBBD37D-A840-496C-9400-25A035DA1756}.Release|x64.Build.0 = Release|x64
+		{9DBBD37D-A840-496C-9400-25A035DA1756}.Release|x86.ActiveCfg = Release|Win32
+		{9DBBD37D-A840-496C-9400-25A035DA1756}.Release|x86.Build.0 = Release|Win32
+		{D3D03148-DC7E-4491-96DC-6900D0CA523E}.Debug|x64.ActiveCfg = Debug|x64
+		{D3D03148-DC7E-4491-96DC-6900D0CA523E}.Debug|x64.Build.0 = Debug|x64
+		{D3D03148-DC7E-4491-96DC-6900D0CA523E}.Debug|x86.ActiveCfg = Debug|Win32
+		{D3D03148-DC7E-4491-96DC-6900D0CA523E}.Debug|x86.Build.0 = Debug|Win32
+		{D3D03148-DC7E-4491-96DC-6900D0CA523E}.Release|x64.ActiveCfg = Release|x64
+		{D3D03148-DC7E-4491-96DC-6900D0CA523E}.Release|x64.Build.0 = Release|x64
+		{D3D03148-DC7E-4491-96DC-6900D0CA523E}.Release|x86.ActiveCfg = Release|Win32
+		{D3D03148-DC7E-4491-96DC-6900D0CA523E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

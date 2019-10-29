@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{8cd75aab-f320-4632-9eab-cb584398692e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{3448ebf5-04b7-4770-b5f5-936b18c80a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{702442ba-4a6b-4e0e-8cc1-361c48492d84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\static_instance.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\timestamp_extrapolator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\trace.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\aligned_array.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\aligned_malloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\atomic32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\clock.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\cpu_info.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\event_wrapper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\file_wrapper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\fix_interlocked_exchange_pointer_win.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\ntp_time.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\rtp_to_ntp_estimator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\rw_lock_wrapper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\sleep.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\base\checks.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\base\criticalsection.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\source\event_timer_win.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\source\rw_lock_win.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\source\trace_impl.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\source\trace_win.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\asm_defines.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\cpu_features_wrapper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\field_trial.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\field_trial_default.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\logcat_trace_context.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\metrics.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\webrtc\system_wrappers\include\metrics_default.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\webrtc\base\checks.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\base\criticalsection.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\base\logging.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\base\string_to_number.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\base\stringencode.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\base\platform_file.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\base\race_checker.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\base\event_tracer.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\base\event.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\base\thread_checker_impl.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\base\platform_thread.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\base\timeutils.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\aligned_malloc.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\atomic32_win.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\clock.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\cpu_features.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\cpu_info.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\event.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\event_timer_win.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\field_trial_default.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\file_impl.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\metrics_default.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\rtp_to_ntp_estimator.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\rw_lock.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\rw_lock_win.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\sleep.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\timestamp_extrapolator.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\trace_impl.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\webrtc\system_wrappers\source\trace_win.cc">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
