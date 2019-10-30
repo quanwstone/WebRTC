@@ -143,7 +143,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;WEBRTC_WIN;WEBRTC_NS_FLOAT;WEBRTC_APM_DEBUG_DUMP=0;WEBRTC_INTELLIGIBILITY_ENHANCER=0;_CRT_SECURE_NO_WARNINGS;NOMINMAX;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\..\..\..\;..\..\..\..\webrtc\modules\audio_coding\codecs\isac;..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\include;..\..\..\..\webrtc\modules\audio_coding\codecs\isac\main\source;..\..\..\..\webrtc\common_audio\signal_processing\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
