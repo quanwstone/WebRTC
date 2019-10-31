@@ -6,4 +6,11 @@
 
 
 
+######################
+
 添加webrtc_module_audio_mixer模块.并实现简单的调用.
+
+######################2019-10-31
+
+添加webrtc_module_audio_conference_mixer模块，并实现简单调用
+
