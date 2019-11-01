@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "audio_conference_mixer", ".
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConferenceMixTest", "..\ConferenceMixTest\ConferenceMixTest.vcxproj", "{84608193-B840-41DC-A05A-B211B666F137}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NSTest", "..\NSTest\NSTest.vcxproj", "{B56AD84E-1F30-4363-88F2-FC4B585298D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{84608193-B840-41DC-A05A-B211B666F137}.Release|x64.Build.0 = Release|x64
 		{84608193-B840-41DC-A05A-B211B666F137}.Release|x86.ActiveCfg = Release|Win32
 		{84608193-B840-41DC-A05A-B211B666F137}.Release|x86.Build.0 = Release|Win32
+		{B56AD84E-1F30-4363-88F2-FC4B585298D1}.Debug|x64.ActiveCfg = Debug|x64
+		{B56AD84E-1F30-4363-88F2-FC4B585298D1}.Debug|x64.Build.0 = Debug|x64
+		{B56AD84E-1F30-4363-88F2-FC4B585298D1}.Debug|x86.ActiveCfg = Debug|Win32
+		{B56AD84E-1F30-4363-88F2-FC4B585298D1}.Debug|x86.Build.0 = Debug|Win32
+		{B56AD84E-1F30-4363-88F2-FC4B585298D1}.Release|x64.ActiveCfg = Release|x64
+		{B56AD84E-1F30-4363-88F2-FC4B585298D1}.Release|x64.Build.0 = Release|x64
+		{B56AD84E-1F30-4363-88F2-FC4B585298D1}.Release|x86.ActiveCfg = Release|Win32
+		{B56AD84E-1F30-4363-88F2-FC4B585298D1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
